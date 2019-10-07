@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".back">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Seated Rows"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/b0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Deadlift"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/b1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Barbel Bent Over Rows"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/b2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="T-Bar Bent Over Row"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/b3"/>
+
+            <TextView
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="Hanging Dumbbell Rows"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Hyperextensions"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/b5"/>
+
+
+                    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

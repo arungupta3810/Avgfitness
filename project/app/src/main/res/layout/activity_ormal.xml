@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".ormal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:textSize="25dp"
+                android:textColor="@color/black"
+                android:text="Maintenance Diet Plan (After weight loss or weight gain)-"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Breakfast(8:00 a.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Greek omelet with 2 eggs, 2 ounces feta cheese, 1 cup spinach leaves, 2 ounces sliced black olives (420 calories, 20 grams protein)"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Lunch(12:30 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Green Pepper Steak with Rice, White Chocolate Dream Bar with 1 cup strawberries (460 calories, 23 grams protein)"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text=" Dinner(8:30 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="3 ounces chicken breast with 1 ounce melted mozzarella 1 cup roasted asparagus with 1 teaspoon olive oil, Chocolate Chip Protein Cookie and ½ banana (530 calories, 49 grams protein)
+            Totals: 1410 calories, 92 grams protein"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="BedTime(p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 glass hot skimmed milk with nuts(1 hour before sleeping)"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

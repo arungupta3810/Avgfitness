@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stepcounter">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:text="Step Counter"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps"
+        android:textSize="30sp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/tvs1"
+        android:text="0"
+        android:textSize="110sp"
+        android:layout_marginLeft="130dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvsc1"
+            android:layout_width="170dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Calories burnt"/>
+
+            <TextView
+                android:id="@+id/tvsc2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".massgainer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weight gain plan-"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Breakfast(8:00 a.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="3 to 4 slices of whole wheat bread toast with peanut butter + 3 egg whites + 1 full egg omelette "
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Mid-Morning(10:30 a.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 orange or apple or 1 cup of green tea + 2 to 3 multigrain biscuits"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Lunch(12:30 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="150 gms of brown rice or whole wheat chapattis + 150 gms of skinless chicken breast / fish + 1 bowl of mixed vegetables+ green chutney+ salad"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Mid afternoon(4:00 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=" 1 fruit or green tea or sprouts salad + few nuts"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="Evening(6:30 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 fruit + 1 cup of low fat yoghurt or 1 cup of low fat milk with 1 scoop of whey protein or whole wheat bread 3 egg whites/ steamed chicken sandwich "
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text=" Dinner(8:30 p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 small fish or 100 gms of skinless/ lean chicken + stir fried veggies with baked potato + 1 cup of brown rice/ whole wheat chappati"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:text="BedTime(p.m.)"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="1 glass hot skimmed milk with nuts(1 hour before sleeping)"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".diet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diet Plans-"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+            <Button
+                android:id="@+id/dietplan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded"
+                android:text="weight loss"
+                android:textSize="25sp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/dietplan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded"
+                android:text="maintenance"
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/dietplan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded"
+                android:text="weight gain "
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Advanced Diet Plans-"
+                android:textSize="35sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dietplan3"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded"
+                android:text="Lean Diet"
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/lock"/>
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/dietplan4"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded"
+                    android:text="Bulk Diet"
+                    android:textSize="25dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/lock"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/dietplan5"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rounded"
+                    android:text="Detox Diet"
+                    android:textSize="25dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/white"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/lock"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

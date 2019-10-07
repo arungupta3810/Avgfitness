@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/vf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/skull" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skull Crusher"
+                android:textSize="25dp"
+                android:layout_marginLeft="90dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/skullcrusher"
+                    android:layout_marginLeft="100dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="20sp"
+                    android:text="Primary Abdominal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Specification"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="20sp"
+                        android:text="sets"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 12-10-8-6 "
+                        android:textSize="20sp"
+                        android:layout_marginTop="20sp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="Description"
+                        android:textSize="25sp"
+                        android:layout_marginTop="20sp"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="1.Keep your upper arms perpendicular to the floor, not necessarily perpendicular to your body. This ensures you're working against gravity. Your arms should automatically be perpendicular to your body when you're on a flat bench, but won't necessarily be when you're doing the movement on an incline or decline bench."
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="2.Only extend your elbows. Avoid allowing your upper arms to move back and forth from their position as you raise and lower the weight. If you move your arms, you put some of the load on your shoulders."
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="3.Lower the weight under control, which means using a weight you can safely handle. Use a very deliberate rep speed on the negative. I assume you know why! (If not, just reference the exercise name again.)"
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="4.As you power the weight back up, stop just short of full extension so that you're unable to rest in the top position, which keeps tension on the muscle throughout the range of motion."
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="5.Use a spotter when training to failure. A spotter can also assist you with a few additional forced reps, hand you the weight to begin, or grab the weight when you're done."
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:text="6.Keep your elbows in tight as much as possible and avoid elbow flare to ensure the triceps do the bulk of the work. Allowing your elbows to flare out reduces the triceps' workload."
+                        android:textSize="18sp"
+                        android:layout_marginTop="6sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

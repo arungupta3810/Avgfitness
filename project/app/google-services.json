@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460858798579",
+    "firebase_url": "https://avgfitness-3810.firebaseio.com",
+    "project_id": "avgfitness-3810",
+    "storage_bucket": "avgfitness-3810.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460858798579:android:fe013ccfacf35eab532286",
+        "android_client_info": {
+          "package_name": "com.example.avgfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460858798579-1cdr57b0il9l2jour876mkvbgspni4eb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.avgfitness",
+            "certificate_hash": "19996ce77ea6fe9e4ac0abb4841bcd026ab3a590"
+          }
+        },
+        {
+          "client_id": "460858798579-bs689q26r8nqvkteringce6p519lo9nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD46r-7UtKnkNr3Pv3rf0A7rm8_mq6dNVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460858798579-bs689q26r8nqvkteringce6p519lo9nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

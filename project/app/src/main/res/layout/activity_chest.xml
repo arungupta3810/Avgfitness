@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chest">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c0"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="Bench Press"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Dumbbell Fly"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/c1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Dumbbell Pullover"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/c2"/>
+
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="Chest Pushups"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/black"
+                android:text="Parallel Bar Dips"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Dumbbell Press"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/c5"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

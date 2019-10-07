@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".triceps">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Close Grip Bench Press"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Skull Crusher"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Overhead Triceps Extension"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="One Arm Triceps Extension"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Triceps Pushdown"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Triceps Kickback"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Triceps Pushups"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="5dp"
+                android:textAlignment="textStart"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:id="@+id/ttvb6"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

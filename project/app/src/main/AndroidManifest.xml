@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.avgfitness">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".le6"></activity>
+        <activity android:name=".le5" />
+        <activity android:name=".le4" />
+        <activity android:name=".le3" />
+        <activity android:name=".le2" />
+        <activity android:name=".le1" />
+        <activity android:name=".s6" />
+        <activity android:name=".s5" />
+        <activity android:name=".s4" />
+        <activity android:name=".s3" />
+        <activity android:name=".s2" />
+        <activity android:name=".s1" />
+        <activity android:name=".c6" />
+        <activity android:name=".c5" />
+        <activity android:name=".c4" />
+        <activity android:name=".c3" />
+        <activity android:name=".c2" />
+        <activity android:name=".c1" />
+        <activity android:name=".ba6" />
+        <activity android:name=".ba5" />
+        <activity android:name=".ba4" />
+        <activity android:name=".ba3" />
+        <activity android:name=".ba2" />
+        <activity android:name=".ba1" />
+        <activity android:name=".t7" />
+        <activity android:name=".t6" />
+        <activity android:name=".t5" />
+        <activity android:name=".t4" />
+        <activity android:name=".t3" />
+        <activity android:name=".t2" />
+        <activity android:name=".t1" />
+        <activity android:name=".b7" />
+        <activity android:name=".b5" />
+        <activity android:name=".b6" />
+        <activity android:name=".b4" />
+        <activity android:name=".b3" />
+        <activity android:name=".b2" />
+        <activity android:name=".b1" />
+        <activity android:name=".feedback" />
+        <activity android:name=".keto" />
+        <activity android:name=".massgainer" />
+        <activity android:name=".ormal" />
+        <activity
+            android:name=".diet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".second" />
+        <activity android:name=".third" />
+        <activity android:name=".fifth" />
+        <activity android:name=".foruth" />
+        <activity android:name=".first" />
+        <activity android:name=".back" />
+        <activity android:name=".legs" />
+        <activity android:name=".chest" />
+        <activity android:name=".abs" />
+        <activity android:name=".shoulder" />
+        <activity android:name=".triceps" />
+        <activity android:name=".biceps" />
+        <activity android:name=".updateprofile" />
+        <activity android:name=".changepassword" />
+        <activity android:name=".forgotpassword" />
+        <activity android:name=".setting" />
+        <activity android:name=".stepcounter" />
+        <activity android:name=".fitness" />
+        <activity
+            android:name=".calculator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".profile" />
+        <activity android:name=".login" />
+        <activity android:name=".signup" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
